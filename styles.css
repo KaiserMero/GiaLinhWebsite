@@ -36,7 +36,10 @@ button {
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+    max-width: 100%;  /* Limits the width to the viewport's width */
+    max-height: 80vh; /* Limits the height to the viewport's height */
+    height: auto;  /* Maintains the aspect ratio */
     display: block; /* Removes bottom space/gap */
+    margin: 0 auto; /* Centers the image horizontally */
 }
+
